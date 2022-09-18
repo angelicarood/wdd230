@@ -15,5 +15,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 5fr));
     width: 960px;
+    background-color: blueviolet;
   }
+}
+html {
+  background-color: #ede7d9;
 }
