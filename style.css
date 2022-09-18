@@ -17,6 +17,14 @@
     width: 960px;
     background-color: blueviolet;
   }
+  h1 {
+    font-family: LibreBaskerville, serif;
+    font-size: 30px;
+  }
+
+  img {
+    max-width: 100%;
+  }
 }
 html {
   background-color: #ede7d9;
