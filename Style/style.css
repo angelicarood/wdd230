@@ -5,4 +5,15 @@
 @media screen and (max-width: 550px) {
   .home-grid {
     display: block;
+  }
+  .home-grid,
+  nav ul {
+    display: block;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 5fr));
+    width: 960px;
+  }
 }
