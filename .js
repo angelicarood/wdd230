@@ -11,4 +11,4 @@ let year = d.getFullYear();
 
 let fulldate = dayname + "," + monthname + "" + d.getDate() + "," + d.getFullYear();
 
-document.getElementById("currentdate").textContent = fulldate
+document.getElementById("currentdate").textContent = fulldate;
