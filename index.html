@@ -4,25 +4,39 @@
     <title>Portal Page</title>
     <style>
 
-      html{
-        display: block;
+      @media screen and (max-width: 550px) {}
 
+      html{
+        background-color: azure;
+        
+
+      }
+
+      body{
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #dfc3cb;
       }
 
       .name{
+        display: grid;
         grid-column: 3/5;
-        grid-row: 1/3;
-        background-color: blueviolet;
-        width: 200px;
-        margin: 20px,20px,20px,20px;
+        grid-row: 2/3;
+        background-color: hsl(318, 48%, 49%);
+        width: 340px;
+        margin: 20px 80px -110px 160px;
+        position: relative;
+       
       }
 
       .logo-box{
-        width: 320px;
-        box-shadow: 1px 1px 4px 1px #d226c1;
-        border-radius: 3px 0 0 3px;
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 2/3;
         background-color: hsl(318, 48%, 49%);
-        overflow: hidden;
+        
+       
+       
   
       }
 
@@ -31,19 +45,39 @@
         margin-bottom: 10px;
         padding: 0;
         overflow: hidden;
+        margin: 20px 20px 20px 20px;
+        
       }
 
-      .wer a {
+      .wer a  {
   
-        color: blue;
+        color: black;
         text-align: left;
+        text-decoration: none;
+      }
+
+     
+
+      .secondtitle{
+        color: black;
+        text-size-adjust: 30px;
+        text-align: center;
+        
+      }
+
+      .foot{
+        text-align: center;
+      }
+
+      footer{
+        background-color:hsl(318, 48%, 49%);
       }
 
       </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="/style.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
     
 </head>
 <body>
@@ -59,23 +93,25 @@
       </div>
       <h2 class="secondtitle">WDD 230: Assigment Portal</h2>
       <nav>
-        <ul class="uli">
-            <li class="wer"><a href="index.html">Lesson 01: Title</a></li>
-            <li class="wer"><a href="index.html">Lesson 02: Tile</a></li>
-            <li class="wer"><a href="index.html">Lesson 03: Tile</a></li>
-            <li class="wer"><a href="index.html">Lesson 04: Title</a></li>
-            <li class="wer"><a href="index.html">Lesson 05: Title</a></li>
-            <li class="wer"><a href="index.html">Lesson 06: Title</a></li>
-            <li class="wer"><a href="index.html">Lesson 07: Title</a></li>
-            <li class="wer"><a href="index.html">Lesson 08: Title</a></li>
-            <li class="wer"><a href="index.html">Lesson 09: Title</a></li>
-            <li class="wer"><a href="index.html">Lesson 10: Title</a></li>
-            <li class="wer"><a href="index.html">Lesson 11: Title</a></li>
-        </ul>
+            <ul class="uli">
+                <li class="wer"><a href="index.html">Lesson 01:Title </a></li>
+                <li class="wer"><a href="index.html">Lesson 02:Title</a></li>
+                <li class="wer"><a href="index.html">Lesson 03:Title </a></li>
+                <li class="wer"><a href="index.html">Lesson 04:Title </a></li>
+                <li class="wer"><a href="index.html">Lesson 05:Title </a></li>
+                <li class="wer"><a href="index.html">Lesson 06:Title </a></li>
+                <li class="wer"><a href="index.html">Lesson 07:Title </a></li>
+                <li class="wer"><a href="index.html">Lesson 08:Title </a></li>
+                <li class="wer"><a href="index.html">Lesson 09:Title </a></li>
+                <li class="wer"><a href="index.html">Lesson 10:Title </a></li>
+                <li class="wer"><a href="index.html">Lesson 11:Title </a></li>
+            </ul>
       </nav>
 
 
     <footer>
+
+      <p class="foot">&copy; 2022 :|: ANGELICA R. LEON :|: UTAH</p>
       <h1>Date</h1>
       <span id="currentdate"></span>  
       

@@ -3,14 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
 
 @media screen and (max-width: 550px) {
-  .home-grid {
-    display: block;
-  }
-  .home-grid,
-  nav ul {
-    display: block;
-  }
-
   header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 5fr));
@@ -29,7 +21,7 @@
   body {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #ede7d9;
+    background-color: hwb(336 79% 10%);
     padding: 1em;
 
   }
