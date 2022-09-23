@@ -5,8 +5,6 @@
 @media screen and (max-width: 550px) {
   header {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(6em, 5fr));
-    width: 960px;
     background-color: blueviolet;
   }
   h1 {
