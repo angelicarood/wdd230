@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
     <title>Portal Page</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="Style/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
     
 </head>
 <body>
-    <div id="header"></div>
+  <div class="content">
     <header>
         <h1 class="name">ANGELICA R. LEON</h1>
         
@@ -24,8 +25,9 @@
           src="Images/rsz_1rsz_img_0242.jpg"
           alt="Logo image"
         />
-    </header>
       </div>
+    </header>
+      <main class="home-grid">
       <h2 class="secondtitle">WDD 230: Assigment Portal</h2>
       <hr>
       <nav>
@@ -46,14 +48,17 @@
 
       <hr>
       <p class="assi"><i>some lessons may need more than one activity/assigment link</i></p>
-
+    </main>
 
     <footer>
 
-      <p class="foot">&copy; 2022 :|: ANGELICA R. LEON :|: UTAH</p>
-      <script src="Scripts/.js"></script>  
-      
-        
-    </footer>
+      <p>
+        &copy; <span id="SCcripts/currentYear">2022</span> .:|:. ANGELICA R. LEON .:|:. Utah .:|:.
+      </p>
+      <p id="lastUpdated"> Last Updated: <span>09/24/2022 12:21:05</span></p>
+</footer>
+    <script src="scripts/script.js"></script> 
+    <div id="shimai-world" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483647; pointer-events: none; background: transparent;"></div>
 </body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 </html>
